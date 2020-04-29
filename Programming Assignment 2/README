@@ -1,0 +1,22 @@
+INSTRUCTIONS:
+=====================
+
+The shared folder consists of 2 files : prover.lsp and Report
+
+1. Prover.lsp :
+ It is the lisp file containing code implementation for programming assignment 2.
+ All functional call have been included in the same file so to run the implementation:
+  1. Download prover.lsp and run command on sbcl:
+     (load "prover.lsp")
+  2. There are 2 main functions named "two-pointer " and "unit-preference"
+  3. To run 2-pointer approach without Answer predicate , refer example names under "EXAMPLE THEOREMS WITHOUT ANSWER PREDICATE"
+     Example run - (two-pointer *howling1* 6)
+  4. 3. To run 2-pointer approach with Answer predicate , refer example names under "EXAMPLE THEOREMS WITH ANSWER PREDICATE"
+     Example run - (two-pointer *howling* 6) 
+  5. To run unit preference approach without Answer predicate , refer example names under "EXAMPLE THEOREMS WITHOUT ANSWER PREDICATE"
+     Example run - (unit-preference *howling1*)
+  6. To run unit preference approach with Answer predicate , refer example names under "EXAMPLE THEOREMS WITH ANSWER PREDICATE"
+     Example run - (unit-preference *howling* 6) 	 
+
+2. Report - File consists of screenshots, print-out and analysis of all results obtained for running the implementation for 6 cases each (12 results total).
+            	 
